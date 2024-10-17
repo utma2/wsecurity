@@ -282,40 +282,6 @@ public class MainActivity extends AppCompatActivity {
 
 codigo de arduino para modulo bluetooth:
 
-#include <SoftwareSerial.h> //Quitar los espacios de esta parte  < SoftwareSerial.h >
 
-SoftwareSerial BT(10,11); // 10 RX, 11 TX.
-
-byte BUZZER = 3;
-
-
-char CharIN = ' ';
-
-void setup()  
-{
-  Serial.begin(9600); 
-  BT.begin(9600); 
-  
-  pinMode(BUZZER, OUTPUT);
-  
-  digitalWrite(BUZZER, LOW); 
-  
-  
-  Serial.println("Iniciando Control ...");
-}
- 
-void loop()
-{     
-    if(BT.available())
-    {
-      CharIN = BT.read();
-      Serial.print(CharIN);
-    
-      if(CharIN == 'a'){digitalWrite(BUZZER, HIGH);}
-      if(CharIN == 'b'){digitalWrite(BUZZER, LOW);}
-    
-      
-    }
-}
 
 
