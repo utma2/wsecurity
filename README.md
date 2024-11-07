@@ -1,7 +1,9 @@
 # wsecurity
-aplicacion para evitar la inseguridad contra las mujeres con botón de pánico y llamadas falas para asegurar la vida y seguridad de la persona en riesgo  
-codigo de android studio:
 
+esta aplicacion es para poder reducir los casos de violencia contra las mujeres y poder brindarles una mayor confianza para poder denunciar cualquier abuso o violencia contra ellas.
+
+
+este es el codigo que se utlizo para crear la aplicacion que se espera ser utilizada por la usuaria:
 
 
 package com.example.myapplication;
@@ -280,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
  
     // 04 ------------------------------------------------------------------------------------------
 
-codigo de la icp utilizada
+A continuacion este es el codigo de la base de datos que va a ser utilizada para almacenar los datos de la usuaria tales como su nombre, direccion, y a su vez la opcion de mandar apoyo inmediato a la ubicacion de la usaria que levanto el reporte. Esto nos ayuda atener mayyo informacion de la persona y la situacion que esta pasando a si mismo cuenta con una opcion de generar una llamada falsa para brindar el apoyo si la usaria se encuentra en un lugar desolado con esto querermos lograr bajaer la taza de secuestros, asaltos, abusos contra las mujeres 
 
 
 import Types "Types";
@@ -385,6 +387,6 @@ actor {
     "{ \"ubicacion\": " # ubicacionText # ", \"nombre_de_la_persona\": " # nombre_de_la_personaTextex # ", \"emergencia\": " # emergenciaText # " }"
   }
 }
-
+ Finalmente despues de juntar todos estos codigos nos da la seguridad que queremos darles a nuestras usuarias para que reporten cualquier acto de violencia hacia ellas.
 
 
