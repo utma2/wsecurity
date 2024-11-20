@@ -389,4 +389,5 @@ actor {
 }
  Finalmente despues de juntar todos estos codigos nos da la seguridad que queremos darles a nuestras usuarias para que reporten cualquier acto de violencia hacia ellas.
 
+Este proyecto tiene como funcionalidiad que cada mujer tènga con ella un boton de panico de bolsiilo como los que se encuentran ubicados en la ciudad de aguascalientes  y con esto nos brinda una atencion mas rapida y efevtiva 
 
